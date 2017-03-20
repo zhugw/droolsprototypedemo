@@ -1,0 +1,9 @@
+package rules;
+
+rule "test"
+    agenda-group "test"
+    when
+        eval (1==1)
+    then
+        System.out.println("test rule finished" );
+end
